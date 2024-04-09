@@ -1,0 +1,3 @@
+Welcome to the github repository for the paper [Optimizing Height Above Nearest Drainage Parameters to Enable Rapid Flood Mapping in North Carolina](https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2023.1296434/full). 
+
+This repository is also available on [HydroShare](https://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/) with some of the bigger files available for download that dont fit on github.

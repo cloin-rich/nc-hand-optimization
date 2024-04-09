@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:citoterms="http://purl.org/spar/cito/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ore="http://www.openarchives.org/ore/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs1="http://www.w3.org/2001/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/nc_catchments_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation">
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0208734795.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087324.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/L_SUMMARY_DISCHARGES.dbf"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/Wake_calibration_-_FINAL.ipynb"/>
+    <citoterms:isDocumentedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemetadata.xml</citoterms:isDocumentedBy>
+    <dc:title>Optimizing Height Above Nearest Drainage Parameters to Enable Rapid Flood Mapping in North Carolina - Materials</dc:title>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemetadata.xml"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/rating_curves_-_refinement_-_FINAL.ipynb"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/wake_gage_list.csv"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/nc_flows_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087580.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/wake_catchmask_resmap.xml#aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/CompositeResource"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/wake_flows_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/6_-_optimal_stages.py"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/nc_catchments_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0208734210.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/1_-_regression_region_percentages.py"/>
+    <ore:isDescribedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml</ore:isDescribedBy>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/7_-_scale_factors.py"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+        <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/nc_full_optimization.ipynb"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/fema_nc.gpkg.zip"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/4_-_fema_flag.py"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087359.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087275.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087183.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/3_-_catch_DA_flow.py"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/fema_nc.gpkg.zip"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/8_-_agreement_figures.py"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/hand_021/hand_021_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/nc_catchments_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/nc_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/5_-_src_power_law.py"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0208726005.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0209782609.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0208758850.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0208732885.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02088383.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/2_-_src_combiner.py"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/nc_regression_regions_resmap.xml#aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087337.txt"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/wake_src.csv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemetadata.xml">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:title>Dublin Core science metadata document describing the HydroShare resource</dc:title>
+    <dc:format>application/rdf+xml</dc:format>
+    <citoterms:documents>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</citoterms:documents>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087324.txt">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/plain</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087580.txt">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/plain</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/fema_nc.gpkg.zip">
+    <dc:format>application/zip</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/nc_regression_regions_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml">
+    <dc:format>application/rdf+xml</dc:format>
+    <dcterms:created>2024-04-05T08:19:33Z</dcterms:created>
+    <dc:creator rdf:resource="http://foresite-toolkit.googlecode.com/#pythonAgent"/>
+    <dc:identifier>423b6d0d46a3454b97bade8e40f686ed</dc:identifier>
+    <dcterms:modified>2024-04-05T08:19:33Z</dcterms:modified>
+    <ore:describes rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/Wake_calibration_-_FINAL.ipynb">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>application/ipynb</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/2_-_src_combiner.py">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/x-python</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087359.txt">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/plain</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/Aggregation">
+    <rdfs1:isDefinedBy>http://www.openarchives.org/ore/terms/</rdfs1:isDefinedBy>
+    <rdfs1:label>Aggregation</rdfs1:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/CompositeResource">
+    <rdfs1:isDefinedBy>http://www.hydroshare.org/terms</rdfs1:isDefinedBy>
+    <rdfs1:label>Composite Resource</rdfs1:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/nc_flows_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/wake_src.csv">
+    <dc:format>text/csv</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/fema_nc.gpkg.zip">
+    <dc:format>application/zip</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/nc_resmap.xml#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/wake_gage_list.csv">
+    <dc:format>text/csv</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/3_-_catch_DA_flow.py">
+    <dc:format>text/x-python</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087183.txt">
+    <dc:format>text/plain</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/8_-_agreement_figures.py">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/x-python</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/ResourceMap">
+    <rdfs1:label>ResourceMap</rdfs1:label>
+    <rdfs1:isDefinedBy>http://www.openarchives.org/ore/terms/</rdfs1:isDefinedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/4_-_fema_flag.py">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/x-python</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/1_-_regression_region_percentages.py">
+    <dc:format>text/x-python</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/wake_flows_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02088383.txt">
+    <dc:format>text/plain</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/hand_021/hand_021_resmap.xml#aggregation">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0208758850.txt">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/plain</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/5_-_src_power_law.py">
+    <dc:format>text/x-python</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0208726005.txt">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/plain</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/nc_full_optimization.ipynb">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>application/ipynb</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/rating_curves_-_refinement_-_FINAL.ipynb">
+    <dc:format>application/ipynb</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0209782609.txt">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/plain</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0208734210.txt">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/plain</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0208732885.txt">
+    <dc:format>text/plain</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/6_-_optimal_stages.py">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/x-python</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/scripts/7_-_scale_factors.py">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>text/x-python</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://foresite-toolkit.googlecode.com/#pythonAgent">
+    <foaf:mbox>foresite@googlegroups.com</foaf:mbox>
+    <foaf:name>Foresite Toolkit (Python)</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/0208734795.txt">
+    <dc:format>text/plain</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/wake_catchmask_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/nc_catchments_resmap.xml#aggregation">
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/L_SUMMARY_DISCHARGES.dbf">
+    <dc:format>application/dbf</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087275.txt">
+    <dc:format>text/plain</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/field-measurements/02087337.txt">
+    <dc:format>text/plain</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/resourcemap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+</rdf:RDF>

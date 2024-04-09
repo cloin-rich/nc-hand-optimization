@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:citoterms="http://purl.org/spar/cito/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ore="http://www.openarchives.org/ore/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs1="http://www.w3.org/2001/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/GeographicFeatureAggregation">
+    <rdfs1:label>Geographic Feature Aggregation</rdfs1:label>
+    <rdfs1:isDefinedBy>http://www.hydroshare.org/terms</rdfs1:isDefinedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/ResourceMap">
+    <rdfs1:label>ResourceMap</rdfs1:label>
+    <rdfs1:isDefinedBy>http://www.openarchives.org/ore/terms/</rdfs1:isDefinedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml#aggregation">
+    <dc:title>S_NODES</dc:title>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_meta.xml"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES.shp"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+        <citoterms:isDocumentedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_meta.xml</citoterms:isDocumentedBy>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES.prj"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES.dbf"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES.shx"/>
+    <ore:isDescribedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml</ore:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES.shx">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>application/x-qgis</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_meta.xml">
+    <dc:format>application/rdf+xml</dc:format>
+    <citoterms:documents>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml#aggregation</citoterms:documents>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml">
+    <ore:describes rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml#aggregation"/>
+    <dcterms:created>2024-04-05T08:19:53Z</dcterms:created>
+    <dcterms:creator rdf:resource="http://foresite-toolkit.googlecode.com/#pythonAgent"/>
+    <dcterms:modified>2024-04-05T08:19:53Z</dcterms:modified>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+    <dc:format>application/rdf+xml</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES.shp">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>application/x-qgis</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://foresite-toolkit.googlecode.com/#pythonAgent">
+    <foaf:mbox>foresite@googlegroups.com</foaf:mbox>
+    <foaf:name>Foresite Toolkit (Python)</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/Aggregation">
+    <rdfs1:label>Aggregation</rdfs1:label>
+    <rdfs1:isDefinedBy>http://www.openarchives.org/ore/terms/</rdfs1:isDefinedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES.dbf">
+    <dc:format>application/dbf</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES.prj">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/2-Wake-Calibration/37183C_20230511/S_NODES_resmap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>application/prj</dc:format>
+  </rdf:Description>
+</rdf:RDF>

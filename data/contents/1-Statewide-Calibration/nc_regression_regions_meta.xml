@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <hsterms:GeographicFeatureAggregation rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/1-Statewide-Calibration/nc_regression_regions_resmap.xml#aggregation">
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldPrecision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hsterms:fieldPrecision>
+        <hsterms:fieldWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</hsterms:fieldWidth>
+        <hsterms:fieldType>String</hsterms:fieldType>
+        <hsterms:fieldTypeCode>4</hsterms:fieldTypeCode>
+        <hsterms:fieldName>RegionName</hsterms:fieldName>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>westlimit=-85.75314946594244; northlimit=37.520990287785445; eastlimit=-75.38901222802079; southlimit=30.08919060272441; projection=WGS 84 EPSG:4326; units=Decimal degrees</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <dc:language>eng</dc:language>
+    <hsterms:spatialReference>
+      <hsterms:box>
+        <rdf:value>northlimit=37.520990287785445; southlimit=30.089190602724415; westlimit=-85.75314946594244; eastlimit=-75.38901222802079; projection_string=GEOGCS["NAD83",
+    DATUM["North_American_Datum_1983",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        TOWGS84[0,0,0,0,0,0,0],
+        AUTHORITY["EPSG","6269"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4269"]]; projection_name=NAD83; datum=North_American_Datum_1983; units=degree</rdf:value>
+      </hsterms:box>
+    </hsterms:spatialReference>
+    <dc:type rdf:resource="https://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <hsterms:GeometryInformation>
+      <rdf:Description>
+        <hsterms:geometryType>MULTIPOLYGON</hsterms:geometryType>
+        <hsterms:featureCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</hsterms:featureCount>
+      </rdf:Description>
+    </hsterms:GeometryInformation>
+    <dc:title>nc_regression_regions</dc:title>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+      </rdf:Description>
+    </dc:rights>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldTypeCode>4</hsterms:fieldTypeCode>
+        <hsterms:fieldWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</hsterms:fieldWidth>
+        <hsterms:fieldName>FF_REGION</hsterms:fieldName>
+        <hsterms:fieldType>String</hsterms:fieldType>
+        <hsterms:fieldPrecision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hsterms:fieldPrecision>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+  </hsterms:GeographicFeatureAggregation>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/GeographicFeatureAggregation">
+    <rdfs:label>Geographic Feature Content: The multiple files that are part of a geographic shapefile</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <hsterms:CompositeResource rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed">
+    <dc:subject>Flood Mapping</dc:subject>
+    <dc:subject>North Carolina</dc:subject>
+    <dc:subject>Height Above Nearest Drainage</dc:subject>
+    <hsterms:awardInfo>
+      <rdf:Description>
+        <hsterms:fundingAgencyURL></hsterms:fundingAgencyURL>
+        <hsterms:fundingAgencyName>NASA</hsterms:fundingAgencyName>
+        <hsterms:awardNumber>80NSSC22K0921</hsterms:awardNumber>
+        <hsterms:awardTitle>Applied Sciences Program – Water Resources</hsterms:awardTitle>
+      </rdf:Description>
+    </hsterms:awardInfo>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16992</hsterms:hydroshare_user_id>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hsterms:creatorOrder>
+        <hsterms:organization>Northeastern University</hsterms:organization>
+        <hsterms:phone>6102478762</hsterms:phone>
+        <hsterms:name>Richardson, Colin</hsterms:name>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16992</hsterms:description>
+        <hsterms:email>richardson.coli@northeastern.edu</hsterms:email>
+      </rdf:Description>
+    </dc:creator>
+    <dc:date>
+      <dcterms:modified>
+        <rdf:value>2023-09-18T12:25:29.825367+00:00</rdf:value>
+      </dcterms:modified>
+    </dc:date>
+    <dc:title>Optimizing Height Above Nearest Drainage Parameters to Enable Rapid Flood Mapping in North Carolina - Materials</dc:title>
+    <dc:type>
+      <rdf:Description rdf:about="http://www.hydroshare.org/terms/CompositeResource">
+        <rdfs:label>Composite Resource</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+      </rdf:Description>
+    </dc:type>
+    <dc:subject>Calibration</dc:subject>
+    <dc:description>
+      <rdf:Description>
+        <dcterms:abstract>Jupyter notebooks used to conduct the analyses in the paper "Optimizing Height Above Nearest Drainage Parameters to Enable Rapid Flood Mapping in North Carolina"</dcterms:abstract>
+      </rdf:Description>
+    </dc:description>
+    <dc:date>
+      <dcterms:created>
+        <rdf:value>2023-09-11T19:25:44.582725+00:00</rdf:value>
+      </dcterms:created>
+    </dc:date>
+    <dc:identifier>
+      <rdf:Description>
+        <hsterms:hydroShareIdentifier rdf:resource="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed"/>
+      </rdf:Description>
+    </dc:identifier>
+    <dcterms:bibliographicCitation>Richardson, C., E. Beighley (2023). Optimizing Height Above Nearest Drainage Parameters to Enable Rapid Flood Mapping in North Carolina - Materials, HydroShare, http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed</dcterms:bibliographicCitation>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>name=North Carolina; projection=WGS 84 EPSG:4326; units=Decimal degrees; northlimit=36.588114; eastlimit=-75.46062; southlimit=33.842313; westlimit=-84.321867</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      </rdf:Description>
+    </dc:rights>
+    <dc:creator>
+      <rdf:Description>
+        <hsterms:address>Massachusetts, US</hsterms:address>
+        <hsterms:organization>Northeastern University</hsterms:organization>
+        <hsterms:homepage rdf:resource="https://www.northeastern.edu/beighley/home/"/>
+        <hsterms:name>Beighley, Edward</hsterms:name>
+        <hsterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</hsterms:description>
+        <hsterms:email>r.beighley@northeastern.edu</hsterms:email>
+        <hsterms:creatorOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hsterms:creatorOrder>
+        <hsterms:hydroshare_user_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</hsterms:hydroshare_user_id>
+        <hsterms:phone>6173733368</hsterms:phone>
+      </rdf:Description>
+    </dc:creator>
+    <dc:language>eng</dc:language>
+  </hsterms:CompositeResource>
+</rdf:RDF>

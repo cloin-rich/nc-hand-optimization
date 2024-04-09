@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <hsterms:GeographicFeatureAggregation rdf:about="http://www.hydroshare.org/resource/423b6d0d46a3454b97bade8e40f686ed/data/contents/3-USGS-Calibration/wake_catchmask_resmap.xml#aggregation">
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</hsterms:fieldWidth>
+        <hsterms:fieldName>catchmask</hsterms:fieldName>
+        <hsterms:fieldTypeCode>12</hsterms:fieldTypeCode>
+        <hsterms:fieldPrecision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hsterms:fieldPrecision>
+        <hsterms:fieldType>Integer64</hsterms:fieldType>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <dc:type rdf:resource="https://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      </rdf:Description>
+    </dc:rights>
+    <hsterms:GeometryInformation>
+      <rdf:Description>
+        <hsterms:geometryType>POLYGON</hsterms:geometryType>
+        <hsterms:featureCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</hsterms:featureCount>
+      </rdf:Description>
+    </hsterms:GeometryInformation>
+    <dc:language>eng</dc:language>
+    <hsterms:spatialReference>
+      <hsterms:box>
+        <rdf:value>northlimit=36.076443; southlimit=35.519458; westlimit=-78.995048; eastlimit=-78.253766; projection_string=GEOGCS["NAD83",
+    DATUM["North_American_Datum_1983",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        TOWGS84[0,0,0,0,0,0,0],
+        AUTHORITY["EPSG","6269"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4269"]]; projection_name=NAD83; datum=North_American_Datum_1983; units=degree</rdf:value>
+      </hsterms:box>
+    </hsterms:spatialReference>
+    <dc:title>wake_catchmask</dc:title>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>westlimit=-78.99504799999998; northlimit=36.076443; eastlimit=-78.25376599999998; southlimit=35.51945799999999; projection=WGS 84 EPSG:4326; units=Decimal degrees</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+  </hsterms:GeographicFeatureAggregation>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/GeographicFeatureAggregation">
+    <rdfs:label>Geographic Feature Content: The multiple files that are part of a geographic shapefile</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+  </rdf:Description>
+</rdf:RDF>
